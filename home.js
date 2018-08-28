@@ -1,8 +1,17 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $("#pageHeader").ce
+    $("#resume").hide();
 
-    $("#button").click(function(){
-        $("h1").slideToggle();
+    $("button").click(function () {
+
+        $("#welcomePage").slideToggle();
     });
+
+    $("button").click(function () {
+        $(this).text(function (i, v) {
+            return v === 'Home' ? 'Resume' : 'Home'
+        })
+        $("#resume").toggle();
+    });
+
 });

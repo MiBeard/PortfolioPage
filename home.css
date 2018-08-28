@@ -14,4 +14,24 @@ body{
 
 #profileImg{
     border-radius: 50%;
-  }
+}
+
+.jumbotron{
+      background-color: #1a283f;
+}
+
+small{
+      font-size: smaller;
+}
+
+.upperCased{
+    text-transform: uppercase;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.indentLine{
+    text-indent: 100px;
+}
