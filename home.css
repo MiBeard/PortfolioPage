@@ -19,6 +19,7 @@ body{
 .jumbotron{
       background-color: #545868;
       color: #e0e2c3;
+      opacity: .9;
 }
 
 small{

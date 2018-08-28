@@ -3,8 +3,8 @@ $(document).ready(function () {
     $("#resume").hide();
 
     $("button").click(function () {
-
-        $("#welcomePage").slideToggle();
+        $("#welcomePage").slideToggle("slow","swing");
+        $("#pageHeader").slideToggle("slow","swing");
     });
 
     $("button").click(function () {
