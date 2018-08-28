@@ -35,3 +35,7 @@ small{
 .indentLine{
     text-indent: 100px;
 }
+
+.resumeImg{
+    border-radius: 10%;
+}
