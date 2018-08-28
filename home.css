@@ -1,5 +1,8 @@
 body{
     background-image: url("https://images.pexels.com/photos/756799/pexels-photo-756799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 #pageHeader{
