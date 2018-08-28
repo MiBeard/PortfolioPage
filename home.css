@@ -17,7 +17,8 @@ body{
 }
 
 .jumbotron{
-      background-color: #1a283f;
+      background-color: #545868;
+      color: #e0e2c3;
 }
 
 small{
@@ -38,4 +39,8 @@ small{
 
 .resumeImg{
     border-radius: 10%;
+}
+
+.a{
+    color: #e0e2c3;
 }
