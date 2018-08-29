@@ -5,11 +5,25 @@ body{
     background-position: right top;
     background-attachment: fixed;
     background-size: cover;
-    color: white;
+    color: #e0e2c3;
+    font: serif;
 }
 
-#pageHeader{
+small{
+    font-size: smaller;
+}
+
+a{
+  color: #e0e2c3;
+}
+
+p{
+  text-indent: 50px;
+}
+
+#headerName{
     text-align: center;
+    color: #e0e2c3;
 }
 
 #profileImg{
@@ -18,12 +32,8 @@ body{
 
 .jumbotron{
       background-color: #545868;
-      color: #e0e2c3;
+      color: #f1f894;
       opacity: .9;
-}
-
-small{
-      font-size: smaller;
 }
 
 .upperCased{
@@ -42,6 +52,8 @@ small{
     border-radius: 10%;
 }
 
-.a{
+.header {
+    padding: 30px 20px;
+    background: #111e33;
     color: #e0e2c3;
 }

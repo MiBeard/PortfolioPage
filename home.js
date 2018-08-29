@@ -2,10 +2,19 @@ $(document).ready(function () {
 
     $("#resume").hide();
 
+    $("button").hover(function(){
+        $(this).css("background-color", "#111e33");
+        $(this).css("color", "#f1f894");
+
+        }, function(){
+        $(this).css("background-color", "#e0e2c3");
+        $(this).css("color", "#111e33");
+    });
+
     $(".resumeButton").click(function () {
         $(".aboutMeButton").toggle();
-        $("#welcomePage").slideToggle("slow","swing");
-        $("#pageHeader").slideToggle("slow","swing");
+        $("#welcomePage").slideToggle("slow", "swing");
+        $("#myHeader").slideToggle("slow", "swing");
     });
 
     $(".resumeButton").click(function () {
@@ -19,8 +28,8 @@ $(document).ready(function () {
 
     $(".aboutMeButton").click(function () {
         $(".resumeButton").toggle();
-        $("#welcomePage").slideToggle("slow","swing");
-        $("#pageHeader").slideToggle("slow","swing");
+        $("#welcomePage").slideToggle("slow", "swing");
+        $("#myHeader").slideToggle("slow", "swing");
     });
 
     $(".aboutMeButton").click(function () {
