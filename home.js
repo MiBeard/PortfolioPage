@@ -2,15 +2,26 @@ $(document).ready(function () {
 
     $("#resume").hide();
 
-    $("button").hover(function(){
+    $("#aboutMe").hide();
+
+    buttonHover();
+    resumeSection();
+    aboutMeSection();
+
+});
+
+function buttonHover() {
+    $("button").hover(function () {
         $(this).css("background-color", "#111e33");
         $(this).css("color", "#f1f894");
 
-        }, function(){
+    }, function () {
         $(this).css("background-color", "#e0e2c3");
         $(this).css("color", "#111e33");
     });
+}
 
+function resumeSection() {
     $(".resumeButton").click(function () {
         $(".aboutMeButton").toggle();
         $("#welcomePage").slideToggle("slow", "swing");
@@ -23,8 +34,9 @@ $(document).ready(function () {
         })
         $("#resume").toggle();
     });
+}
 
-    $("#aboutMe").hide();
+function aboutMeSection() {
 
     $(".aboutMeButton").click(function () {
         $(".resumeButton").toggle();
@@ -39,4 +51,4 @@ $(document).ready(function () {
         $("#aboutMe").toggle();
     });
 
-});
+}
