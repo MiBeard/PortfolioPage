@@ -5,6 +5,8 @@
 
     <!-- For mobile device sizing -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="home.css">
@@ -12,15 +14,28 @@
         crossorigin="anonymous">
 </head>
 
-<body>
-    <div class="header" id="myHeader">
-        <h2>Matt Beard Portfolio Page</h2>
-    </div>
+<body style="height:740px">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid header">
+            <div class="navbar-header">
+                <a style="color:#e0e2c3" class="navbar-brand">Matt Beard Portfolio</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#" class="homeButton">Home</a></li>
+                <li><a href="#" class="resumeButton">My Resume</a></li>
+                <li><a href="#" class="aboutMeButton">About Me</a></li>
+                <li><a href="#" class="contactButton">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <br/>
     <center>
         <div id="welcomePage" class="container">
-            <img id="profileImg" src="https://avatars3.githubusercontent.com/u/42604883?s=460&v=4" alt="Avatar" style="width:200px">
+            <img id="profileImg" src="https://avatars3.githubusercontent.com/u/42604883?s=460&v=4" alt="Avatar" style="width:250px">
             <br/>
+            <h3>Software Developer</h3>
             <a href="https://www.linkedin.com/in/matthew-beard-developer/" target="_blank">
                 <h5 class="fab fa-linkedin"> My LinkedIn</h5>
             </a>
@@ -30,9 +45,10 @@
             </a>
             <br/>
         </div>
-        <button style="background-color:#e0e2c3; color: #111e33" class="btn btn-default resumeButton">Resume</button>
-        <button style="background-color:#e0e2c3; color: #111e33" class="btn btn-default aboutMeButton">About Me</button>
+
     </center>
+
+    <!-- ____________________________________________________ABOUT ME________________________________________________________________ -->
 
     <div id="aboutMe" class="container">
         <br/>
@@ -46,8 +62,8 @@
             basic web pages using HTML and CSS. One thing that stood out to me when taking this class was the feeling of
             fulfillment I had achieved after the completion of my assignments. It is that type of fulfillment that I have
             been chasing, and that type of fulfillment that I have achieved once again. I have acquired a new set of skills
-            in software development that will last me a lifetime and take my career to greater heights. I am thrilled to
-            finally be doing something that I love.
+            in software development that allow me to build full-stack web applications. These are skills that will last me
+            a lifetime and take my career to greater heights. I am thrilled to finally be doing something that I love.
         </p>
 
         <h3 class="centerText">Activities</h3>
@@ -57,10 +73,12 @@
             gym. Additionally, I enjoy graphic design and doing research on topics that involve space, physics, and magnetism...weird,
             I know.
         </p>
-
     </div>
 
     <br/>
+
+    <!-- ____________________________________________________RESUME________________________________________________________________ -->
+
 
     <div id="resume" class="container">
         <div class="jumbotron">
@@ -132,10 +150,17 @@
             <h5 class="indentLine upperCased"><img class="resumeImg" src="https://pbs.twimg.com/profile_images/979067981513633792/OaGmmnez_400x400.jpg"
                     height="50" width="50"> the software guild | Louisville, ky - java - 2018</h5>
 
-
             <h5 class="indentLine upperCased"><img class="resumeImg" style="background-color: white" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/University_of_Louisville_seal.svg/1200px-University_of_Louisville_seal.svg.png"
                     height="50" width="50"> University of Louisville | Louisville, ky - criminal justice - 2013</h5>
 
+        </div>
+    </div>
+    <!-- ____________________________________________________CONTACT ME________________________________________________________________ -->
+
+    <div class="container centerText" id="contactMe">
+        <div class="row">
+                <h3>Phone: (502) 802-8826</h3>
+                <h3>Email: Matthew.isaiah8@gmail.com</h3>
         </div>
     </div>
 

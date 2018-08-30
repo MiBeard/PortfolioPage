@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     color: #e0e2c3;
-    font: serif;
+    font-family: Palatino;
 }
 
 small{
@@ -21,18 +21,30 @@ p{
   text-indent: 50px;
 }
 
-#headerName{
-    text-align: center;
-    color: #e0e2c3;
-}
-
 #profileImg{
     border-radius: 50%;
+    margin-top: 180px;
+}
+
+#contactMe{
+    margin-top: 200px;
+}
+
+#resume{
+    margin-top: 80px;
+}
+
+#aboutMe{
+    margin-top: 100px;
+}
+
+#welcomePage{
+    color: #e0e2c3;
 }
 
 .jumbotron{
       background-color: #545868;
-      color: #f1f894;
+      color: #e0e2c3;
       opacity: .9;
 }
 
@@ -52,8 +64,16 @@ p{
     border-radius: 10%;
 }
 
-.header {
-    padding: 30px 20px;
-    background: #111e33;
+.nav.navbar-nav li a {
     color: #e0e2c3;
 }
+
+.jumbotron-contact{
+    width: 800px;
+    align-content: center;
+}
+
+.nameHeader{
+    font-size: 5;
+}
+

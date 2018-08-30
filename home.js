@@ -1,37 +1,29 @@
 $(document).ready(function () {
 
+    $("#contactMe").hide();
     $("#resume").hide();
-
     $("#aboutMe").hide();
+    $(".homeButton").hide();
 
-    buttonHover();
     resumeSection();
     aboutMeSection();
+    contactMeSection();
+    homeButton();
 
 });
 
-function buttonHover() {
-    $("button").hover(function () {
-        $(this).css("background-color", "#111e33");
-        $(this).css("color", "#f1f894");
-
-    }, function () {
-        $(this).css("background-color", "#e0e2c3");
-        $(this).css("color", "#111e33");
-    });
-}
-
 function resumeSection() {
+
     $(".resumeButton").click(function () {
+        $(".homeButton").toggle();
+        $(".resumeButton").toggle();
         $(".aboutMeButton").toggle();
+        $(".contactButton").toggle();
         $("#welcomePage").slideToggle("slow", "swing");
-        $("#myHeader").slideToggle("slow", "swing");
     });
 
     $(".resumeButton").click(function () {
-        $(this).text(function (i, v) {
-            return v === 'Home' ? 'Resume' : 'Home'
-        })
+        $(".homeButton").show();
         $("#resume").toggle();
     });
 }
@@ -39,16 +31,44 @@ function resumeSection() {
 function aboutMeSection() {
 
     $(".aboutMeButton").click(function () {
+        $(".homeButton").toggle();
         $(".resumeButton").toggle();
+        $(".aboutMeButton").toggle();
+        $(".contactButton").toggle();
         $("#welcomePage").slideToggle("slow", "swing");
-        $("#myHeader").slideToggle("slow", "swing");
     });
 
     $(".aboutMeButton").click(function () {
-        $(this).text(function (i, v) {
-            return v === 'Home' ? 'About Me' : 'Home'
-        })
+        $(".homeButton").show();
         $("#aboutMe").toggle();
     });
+}
 
+function contactMeSection() {
+
+    $(".contactButton").click(function () {
+        $(".homeButton").toggle();
+        $(".resumeButton").toggle();
+        $(".aboutMeButton").toggle();
+        $(".contactButton").toggle();
+        $("#welcomePage").slideToggle("slow", "swing");
+    });
+
+    $(".contactButton").click(function () {
+        $(".homeButton").show();
+        $("#contactMe").toggle();
+    });
+}
+
+function homeButton() {
+    $(".homeButton").click(function () {
+        $("#resume").hide();
+        $("#aboutMe").hide();
+        $("#contactMe").hide();
+        $(".homeButton").hide();
+        $(".resumeButton").toggle();
+        $(".aboutMeButton").toggle();
+        $(".contactButton").toggle();
+        $("#welcomePage").slideToggle("slow", "swing");
+    });
 }
