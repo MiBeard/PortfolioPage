@@ -68,6 +68,10 @@ p{
     color: #e0e2c3;
 }
 
+.header{
+    background-color: #444c59;
+}
+
 .jumbotron-contact{
     width: 800px;
     align-content: center;
