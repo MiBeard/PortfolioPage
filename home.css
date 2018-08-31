@@ -26,8 +26,12 @@ p{
     margin-top: 180px;
 }
 
-#contactMe{
-    margin-top: 200px;
+#contactInfo{
+    margin-top: 150px;
+}
+
+#projectInfo{
+    margin-top: 60px;
 }
 
 #resume{
@@ -35,7 +39,7 @@ p{
 }
 
 #aboutMe{
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 #welcomePage{
@@ -81,3 +85,41 @@ p{
     font-size: 5;
 }
 
+.carousel-indicators li { 
+    visibility: hidden; 
+}
+
+.carousel img {
+    margin: auto;
+    border-radius: 25px;
+}
+
+/* .carouselSpacing{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#luckySevensCarousel{
+    width:700px;
+    height:250px;
+}
+
+#weatherAppCarousel{
+    width:700px;
+    height:400px;
+}
+
+#vendingMachineCarousel{
+    width:700px;
+    height:250px;
+}
+
+#VendingMachineSpringCarousel{
+    width:700px;
+    height:250px;
+}
+
+#superHeroesCarousel{
+    width:700px;
+    height:250px;
+} */

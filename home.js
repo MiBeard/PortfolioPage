@@ -1,12 +1,14 @@
 $(document).ready(function () {
 
-    $("#contactMe").hide();
     $("#resume").hide();
     $("#aboutMe").hide();
+    $("#projectInfo").hide();
+    $("#contactInfo").hide();
     $(".homeButton").hide();
 
     resumeSection();
     aboutMeSection();
+    projectSection();
     contactMeSection();
     homeButton();
 
@@ -18,6 +20,7 @@ function resumeSection() {
         $(".homeButton").toggle();
         $(".resumeButton").toggle();
         $(".aboutMeButton").toggle();
+        $(".projectButton").toggle();
         $(".contactButton").toggle();
         $("#welcomePage").slideToggle("slow", "swing");
     });
@@ -34,6 +37,7 @@ function aboutMeSection() {
         $(".homeButton").toggle();
         $(".resumeButton").toggle();
         $(".aboutMeButton").toggle();
+        $(".projectButton").toggle();
         $(".contactButton").toggle();
         $("#welcomePage").slideToggle("slow", "swing");
     });
@@ -45,18 +49,34 @@ function aboutMeSection() {
 }
 
 function contactMeSection() {
-
     $(".contactButton").click(function () {
         $(".homeButton").toggle();
         $(".resumeButton").toggle();
         $(".aboutMeButton").toggle();
+        $(".projectButton").toggle();
         $(".contactButton").toggle();
         $("#welcomePage").slideToggle("slow", "swing");
     });
 
     $(".contactButton").click(function () {
         $(".homeButton").show();
-        $("#contactMe").toggle();
+        $("#contactInfo").toggle();
+    });
+}
+
+function projectSection() {
+    $(".projectButton").click(function () {
+        $(".homeButton").toggle();
+        $(".resumeButton").toggle();
+        $(".aboutMeButton").toggle();
+        $(".projectButton").toggle();
+        $(".contactButton").toggle();
+        $("#welcomePage").slideToggle("slow", "swing");
+    });
+
+    $(".projectButton").click(function () {
+        $(".homeButton").show();
+        $("#projectInfo").toggle();
     });
 }
 
@@ -64,10 +84,12 @@ function homeButton() {
     $(".homeButton").click(function () {
         $("#resume").hide();
         $("#aboutMe").hide();
-        $("#contactMe").hide();
+        $("#projectInfo").hide();
+        $("#contactInfo").hide();
         $(".homeButton").hide();
         $(".resumeButton").toggle();
         $(".aboutMeButton").toggle();
+        $(".projectButton").toggle();
         $(".contactButton").toggle();
         $("#welcomePage").slideToggle("slow", "swing");
     });
