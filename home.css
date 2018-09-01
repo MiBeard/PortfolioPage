@@ -64,12 +64,13 @@ p{
 .aboutMeJumbotron{
     background-color: #442f08;
     opacity: .9;
-    width: 600px;
+    width: 550px;
     margin: auto;
 }
 
 .aboutMeJumbotron p{
     font-size: 14px;
+    width: 375px;
 }
 
 .jumbotronChildOne{
