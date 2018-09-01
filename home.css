@@ -1,6 +1,6 @@
 body{
     background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),
-            url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg");
+            url("https://upload.wikimedia.org/wikipedia/commons/9/90/In_Death_Valley_Calif_-_Eureka_Dunes_%2815873225860%29.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -75,7 +75,7 @@ p{
 }
 
 .header{
-    background-color: #38414f;
+    background-color: #081c3d;
 }
 
 .jumbotron-contact{
@@ -96,33 +96,3 @@ p{
     border-radius: 25px;
     height: 250px;
 }
-
-/* .carouselSpacing{
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
-
-#luckySevensCarousel{
-    width:700px;
-    height:250px;
-}
-
-#weatherAppCarousel{
-    width:700px;
-    height:400px;
-}
-
-#vendingMachineCarousel{
-    width:700px;
-    height:250px;
-}
-
-#VendingMachineSpringCarousel{
-    width:700px;
-    height:250px;
-}
-
-#superHeroesCarousel{
-    width:700px;
-    height:250px;
-} */
