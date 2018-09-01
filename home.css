@@ -48,10 +48,46 @@ p{
     color: #e0e2c3;
 }
 
-.jumbotron{
-      background-color: #545868;
-      color: #e0e2c3;
-      opacity: .9;
+.jumbotronResume{
+    background-color: #1b4e60;
+    color: #e0e2c3;
+    opacity: .8;
+}
+
+.contactJumbotron{
+    background-color: #442f08;
+    opacity: .9;
+    width: 600px;
+    margin: auto;
+}
+
+.aboutMeJumbotron{
+    background-color: #442f08;
+    opacity: .9;
+    width: 600px;
+    margin: auto;
+}
+
+.aboutMeJumbotron p{
+    font-size: 14px;
+}
+
+.jumbotronChildOne{
+    opacity: .9;
+    background-color: #12143a;
+}
+
+.jumbotronChildOne p{
+    font-size: 17px;
+}
+
+.jumbotronChildTwo{
+    opacity: .9;
+    background-color: #053651; 
+}
+
+.jumbotronChildTwo p{
+    font-size: 17px;
 }
 
 .upperCased{

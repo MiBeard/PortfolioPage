@@ -65,40 +65,42 @@
 
     <div id="aboutMe" class="container">
         <br/>
-        <h3 class="centerText">About Me</h3>
-        <p>
-            My name is Matt Beard, and I am native to the Louisville area. I hold a Bachelors degree in Criminal Justice from the University
-            of Louisville, and completed advanced education in full stack web development from the Software Guild.
-        </p>
-        <br/>
-        <br/>
-        <p>
-            After graduating college I felt compelled to do something more with my life. I wanted to do something that would utilize
-            my creativity to its fullest and mentally challenge me at the same time. Being the ambitious and creative person
-            I am, I followed my urge and set off down a new path of higher education - software development.
-        </p>
-        <br/>
-        <br/>
-        <p>
-            My initial love for software development and computer science began in Middle School, where I was given the task to create
-            basic web pages using HTML and CSS. One thing that stood out to me when taking this class was the feeling of
-            fulfillment I had achieved after the completion of my assignments. The feeling of seeing what started off in
-            my mind be conveyed onto the computer was invigorating.
-        </p>
-        <br/>
-        <br/>
-        <p>
-            Furthering my skills in software development has allowed me to build full-stack web applications and bring my ideas to life.
-            I am thrilled to finally be doing something that I love.
-        </p>
+        <div class="jumbotron aboutMeJumbotron">
+            <h3 class="centerText">About Me</h3>
+            <p>
+                My name is Matt Beard, and I am native to the Louisville area. I hold a Bachelors degree in Criminal Justice from the University
+                of Louisville, and completed advanced education in full stack web development from the Software Guild.
+            </p>
+            <br/>
+            <br/>
+            <p>
+                After graduating college I felt compelled to do something more with my life. I wanted to do something that would utilize
+                my creativity to its fullest and mentally challenge me at the same time. Being the ambitious and creative
+                person I am, I followed my urge and set off down a new path of higher education - software development.
+            </p>
+            <br/>
+            <br/>
+            <p>
+                My initial love for software development and computer science began in Middle School, where I was given the task to create
+                basic web pages using HTML and CSS. One thing that stood out to me when taking this class was the feeling
+                of fulfillment I had achieved after the completion of my assignments. The feeling of seeing what started
+                off in my mind be conveyed onto the computer was invigorating.
+            </p>
+            <br/>
+            <br/>
+            <p>
+                Furthering my skills in software development has allowed me to build full-stack web applications and bring my ideas to life.
+                I am thrilled to finally be doing something that I love.
+            </p>
 
-        <h3 class="centerText">Activities</h3>
+            <h3 class="centerText">Activities</h3>
 
-        <p>
-            I am a highly motivated and active person. I love to run, mountain bike, snowboard(not good at it), kayak, and go to the
-            gym. Additionally, I enjoy graphic design and doing research on topics that involve space, physics, and magnetism...weird,
-            I know.
-        </p>
+            <p>
+                I am a highly motivated and active person. I love to run, mountain bike, snowboard(not good at it), kayak, and go to the
+                gym. Additionally, I enjoy graphic design and doing research on topics that involve space, physics, and magnetism...weird,
+                I know.
+            </p>
+        </div>
     </div>
 
     <br/>
@@ -107,7 +109,7 @@
 
 
     <div id="resume" class="container">
-        <div class="jumbotron">
+        <div class="jumbotron jumbotronResume">
             <h3 class="centerText">Matthew Beard</h3>
 
             <center>
@@ -185,8 +187,10 @@
 
     <div class="container centerText" id="contactInfo">
         <div class="row">
-            <h2>My Contact Information</h2>
-            <h3>Phone: (502) 383-2047</h3>
+            <div class="jumbotron contactJumbotron">
+                <h2>My Contact Information</h2>
+                <h3>Phone: (502) 383-2047</h3>
+            </div>
         </div>
     </div>
     <br/>
@@ -201,109 +205,115 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 carouselBackground">
-                <h3 class="centerText">Lucky Sevens!</h3>
-                <div id="luckySevensCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#luckySevensCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#luckySevensCarousel" data-slide-to="1"></li>
-                        <li data-target="#luckySevensCarousel" data-slide-to="2"></li>
-                    </ol>
+                <div class="jumbotron jumbotronChildOne">
+                    <h3 class="centerText">Lucky Sevens!</h3>
+                    <div id="luckySevensCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#luckySevensCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#luckySevensCarousel" data-slide-to="1"></li>
+                            <li data-target="#luckySevensCarousel" data-slide-to="2"></li>
+                        </ol>
 
 
-                    <a href="https://github.com/MiBeard/LuckySevens" target="_blank">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img style="height: 250px" src="https://github.com/MiBeard/LuckySevens/blob/master/Screen%20Shot%202018-08-31%20at%204.00.57%20AM.png?raw=true"
-                                    alt="Lucky Sevens">
+                        <a href="https://github.com/MiBeard/LuckySevens" target="_blank">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img style="height: 250px" src="https://github.com/MiBeard/LuckySevens/blob/master/Screen%20Shot%202018-08-31%20at%204.00.57%20AM.png?raw=true"
+                                        alt="Lucky Sevens">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 250px" src="https://github.com/MiBeard/LuckySevens/blob/master/Screen%20Shot%202018-08-31%20at%204.01.24%20AM.png?raw=true"
+                                        alt="Lucky Sevens">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 250px" src="https://github.com/MiBeard/LuckySevens/blob/master/Screen%20Shot%202018-08-31%20at%204.01.33%20AM.png?raw=true"
+                                        alt="Lucky Sevens">
+                                </div>
                             </div>
+                        </a>
 
-                            <div class="item">
-                                <img style="height: 250px" src="https://github.com/MiBeard/LuckySevens/blob/master/Screen%20Shot%202018-08-31%20at%204.01.24%20AM.png?raw=true"
-                                    alt="Lucky Sevens">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 250px" src="https://github.com/MiBeard/LuckySevens/blob/master/Screen%20Shot%202018-08-31%20at%204.01.33%20AM.png?raw=true"
-                                    alt="Lucky Sevens">
-                            </div>
-                        </div>
-                    </a>
-
-                    <a class="left carousel-control" href="#luckySevensCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#luckySevensCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <a class="left carousel-control" href="#luckySevensCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#luckySevensCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br/>
+                    <p>Lucky Sevens is a web application that was created with the use of MVC architecture, JSP's, JSTL,
+                        and EL.
+                    </p>
+                    <p> The <u>rules of the game</u>: Each round, the program rolls a virtual pair of dice for the user If
+                        the sum of the 2 dice is equal to 7, the player wins $4; otherwise, the player loses $1.
+                    </p>
                 </div>
-                <br/>
-                <p>Lucky Sevens is a web application that was created with the use of MVC architecture, JSP's, JSTL, and
-                    EL.
-                </p>
-                <p> The <u>rules of the game</u>: Each round, the program rolls a virtual pair of dice for the user If the
-                    sum of the 2 dice is equal to 7, the player wins $4; otherwise, the player loses $1.
-                </p>
             </div>
             <div class="col-md-2"></div>
         </div>
+
         <br/>
+        <!-- _________________________________________________________BasicConcepts Carousel________________________________________________________________ -->
 
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6 carouselBackground">
-                <h3 class="centerText">Basic Concepts!</h3>
-                <div id="basicConceptsCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#basicConceptsCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#basicConceptsCarousel" data-slide-to="1"></li>
-                        <li data-target="#basicConceptsCarousel" data-slide-to="2"></li>
-                    </ol>
+                <div class="jumbotron jumbotronChildTwo">
+                    <h3 class="centerText">Basic Concepts!</h3>
+                    <div id="basicConceptsCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#basicConceptsCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#basicConceptsCarousel" data-slide-to="1"></li>
+                            <li data-target="#basicConceptsCarousel" data-slide-to="2"></li>
+                        </ol>
 
 
-                    <a href="https://github.com/MiBeard/BasicConcepts" target="_blank">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.10.15%20PM.png?raw=true"
-                                    alt="basicConcepts">
+                        <a href="https://github.com/MiBeard/BasicConcepts" target="_blank">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.10.15%20PM.png?raw=true"
+                                        alt="basicConcepts">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.08.34%20PM.png?raw=true"
+                                        alt="basicConcepts">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.10.03%20PM.png?raw=true"
+                                        alt="basicConcepts">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.11.01%20PM.png?raw=true"
+                                        alt="basicConcepts">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.11.50%20PM.png?raw=true"
+                                        alt="basicConcepts">
+                                </div>
                             </div>
+                        </a>
 
-                            <div class="item">
-                                <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.08.34%20PM.png?raw=true"
-                                    alt="basicConcepts">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.10.03%20PM.png?raw=true"
-                                    alt="basicConcepts">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.11.01%20PM.png?raw=true"
-                                    alt="basicConcepts">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 250px" src="https://github.com/MiBeard/BasicConcepts/blob/master/Screen%20Shot%202018-08-31%20at%206.11.50%20PM.png?raw=true"
-                                    alt="basicConcepts">
-                            </div>
-                        </div>
-                    </a>
-
-                    <a class="left carousel-control" href="#basicConceptsCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#basicConceptsCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <a class="left carousel-control" href="#basicConceptsCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#basicConceptsCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br/>
+                    <p>Basic Concepts is a simple program that demonstrates the proficiency in basic Java syntax involving
+                        console input and output, variables, flow of control statements, and expressions.
+                    </p>
                 </div>
-                <br/>
-                <p>Basic Concepts is a simple program that demonstrates the proficiency in basic Java syntax involving console
-                    input and output, variables, flow of control statements, and expressions.
-                </p>
             </div>
             <div class="col-md-3"></div>
         </div>
@@ -313,112 +323,117 @@
         <div class="row carouselSpacing">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <h3 class="centerText">Weather Application!</h3>
-                <div id="weatherAppCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#weatherCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#weatherCarousel" data-slide-to="1"></li>
-                        <li data-target="#weatherCarousel" data-slide-to="2"></li>
-                        <li data-target="#weatherCarousel" data-slide-to="3"></li>
-                    </ol>
+                <div class="jumbotron jumbotronChildOne">
+                    <h3 class="centerText">Weather Application!</h3>
+                    <div id="weatherAppCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#weatherCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#weatherCarousel" data-slide-to="1"></li>
+                            <li data-target="#weatherCarousel" data-slide-to="2"></li>
+                            <li data-target="#weatherCarousel" data-slide-to="3"></li>
+                        </ol>
 
-                    <a href="https://github.com/MiBeard/WeatherApplication" target="_blank">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img style="height: 300px" src="https://github.com/MiBeard/WeatherApplication/blob/master/Screen%20Shot%202018-08-31%20at%203.24.39%20AM.png?raw=true"
-                                    alt="Weather App">
+                        <a href="https://github.com/MiBeard/WeatherApplication" target="_blank">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/WeatherApplication/blob/master/Screen%20Shot%202018-08-31%20at%203.24.39%20AM.png?raw=true"
+                                        alt="Weather App">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/WeatherApplication/blob/master/Screen%20Shot%202018-08-31%20at%203.24.50%20AM.png?raw=true"
+                                        alt="Weather App">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/WeatherApplication/blob/master/Screen%20Shot%202018-08-31%20at%203.25.14%20AM.png?raw=true"
+                                        alt="Weather App">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/WeatherApplication/blob/master/Screen%20Shot%202018-08-31%20at%203.25.49%20AM.png?raw=true"
+                                        alt="Weather App">
+                                </div>
                             </div>
+                        </a>
 
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/WeatherApplication/blob/master/Screen%20Shot%202018-08-31%20at%203.24.50%20AM.png?raw=true"
-                                    alt="Weather App">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/WeatherApplication/blob/master/Screen%20Shot%202018-08-31%20at%203.25.14%20AM.png?raw=true"
-                                    alt="Weather App">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/WeatherApplication/blob/master/Screen%20Shot%202018-08-31%20at%203.25.49%20AM.png?raw=true"
-                                    alt="Weather App">
-                            </div>
-                        </div>
-                    </a>
-
-                    <a class="left carousel-control" href="#weatherAppCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#weatherAppCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <a class="left carousel-control" href="#weatherAppCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#weatherAppCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br/>
+                    <p>Weather App is a web application that was created with the use of MVC architecture, JSPs, JSTL, EL,
+                        PostMan, JSON, and Javascript. The purpose of this project was to use jQuery to respond to browser
+                        events, manipulate HTML elements, make Ajax calls, and process Ajax responses while using an Open
+                        Weather Map API.
+                    </p>
                 </div>
-                <br/>
-                <p>Weather App is a web application that was created with the use of MVC architecture, JSP's, JSTL, EL, PostMan,
-                    JSON, and Javascript. The purpose of this project was to use jQuery to respond to browser events, manipulate
-                    HTML elements, make Ajax calls, and process Ajax responses while using an Open Weather Map API.
-                </p>
             </div>
             <div class="col-md-2"></div>
         </div>
 
         <br/>
-
+        <!-- ______________________________________________________DVD Library Carousel__________________________________________________________ -->
 
         <div class="row carouselSpacing">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <h3 class="centerText">DVD Library! (OOP)</h3>
-                <div id="DvdLibraryCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#DvdLibraryCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#DvdLibraryCarousel" data-slide-to="1"></li>
-                        <li data-target="#DvdLibraryCarousel" data-slide-to="2"></li>
-                        <li data-target="#DvdLibraryCarousel" data-slide-to="3"></li>
-                    </ol>
+                <div class="jumbotron jumbotronChildTwo">
+                    <h3 class="centerText">DVD Library! (OOP)</h3>
+                    <div id="DvdLibraryCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#DvdLibraryCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#DvdLibraryCarousel" data-slide-to="1"></li>
+                            <li data-target="#DvdLibraryCarousel" data-slide-to="2"></li>
+                            <li data-target="#DvdLibraryCarousel" data-slide-to="3"></li>
+                        </ol>
 
-                    <a href="https://github.com/MiBeard/DVDLibrary" target="_blank">
-                        <div class="carousel-inner">
+                        <a href="https://github.com/MiBeard/DVDLibrary" target="_blank">
+                            <div class="carousel-inner">
 
-                            <div class="item active">
-                                <img style="height: 300px" src="https://github.com/MiBeard/DVDLibrary/blob/master/Screen%20Shot%202018-08-31%20at%206.41.14%20PM.png?raw=true"
-                                    alt="DvdLibrary">
+                                <div class="item active">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/DVDLibrary/blob/master/Screen%20Shot%202018-08-31%20at%206.41.14%20PM.png?raw=true"
+                                        alt="DvdLibrary">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/DVDLibrary/blob/master/Screen%20Shot%202018-08-31%20at%206.27.54%20PM.png?raw=true"
+                                        alt="DvdLibrary">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/DVDLibrary/blob/master/Screen%20Shot%202018-08-31%20at%206.28.16%20PM.png?raw=true"
+                                        alt="DvdLibrary">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/DVDLibrary/blob/master/Screen%20Shot%202018-08-31%20at%206.29.48%20PM.png?raw=true"
+                                        alt="DvdLibrary">
+                                </div>
+
                             </div>
+                        </a>
 
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/DVDLibrary/blob/master/Screen%20Shot%202018-08-31%20at%206.27.54%20PM.png?raw=true"
-                                    alt="DvdLibrary">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/DVDLibrary/blob/master/Screen%20Shot%202018-08-31%20at%206.28.16%20PM.png?raw=true"
-                                    alt="DvdLibrary">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/DVDLibrary/blob/master/Screen%20Shot%202018-08-31%20at%206.29.48%20PM.png?raw=true"
-                                    alt="DvdLibrary">
-                            </div>
-
-                        </div>
-                    </a>
-
-                    <a class="left carousel-control" href="#DvdLibraryCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#DvdLibraryCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <a class="left carousel-control" href="#DvdLibraryCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#DvdLibraryCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br/>
+                    <p>DVD Library demonstrates the proficiency in basic Java syntax involving console input and output,
+                        basic file input and output, basic string/text manipulation, flow of control statements, expressions,
+                        and basic data structures such as arrays, Lists, and Maps.
+                    </p>
                 </div>
-                <br/>
-                <p>DVD Library demonstrates the proficiency in basic Java syntax involving console input and output, basic
-                    file input and output, basic string/text manipulation, flow of control statements, expressions, and basic
-                    data structures such as arrays, Lists, and Maps.
-                </p>
             </div>
             <div class="col-md-3"></div>
         </div>
@@ -430,71 +445,74 @@
         <div class="row carouselSpacing">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <h3 class="centerText">Vending Machine! (Javascript Version)</h3>
-                <div id="vendingMachineCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#vendingMachineCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#vendingMachineCarousel" data-slide-to="1"></li>
-                        <li data-target="#vendingMachineCarousel" data-slide-to="2"></li>
-                        <li data-target="#vendingMachineCarousel" data-slide-to="3"></li>
-                        <li data-target="#vendingMachineCarousel" data-slide-to="4"></li>
-                        <li data-target="#vendingMachineCarousel" data-slide-to="5"></li>
-                        <li data-target="#vendingMachineCarousel" data-slide-to="6"></li>
-                    </ol>
+                <div class="jumbotron jumbotronChildOne">
+                    <h3 class="centerText">Vending Machine! (Javascript Version)</h3>
+                    <div id="vendingMachineCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#vendingMachineCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#vendingMachineCarousel" data-slide-to="1"></li>
+                            <li data-target="#vendingMachineCarousel" data-slide-to="2"></li>
+                            <li data-target="#vendingMachineCarousel" data-slide-to="3"></li>
+                            <li data-target="#vendingMachineCarousel" data-slide-to="4"></li>
+                            <li data-target="#vendingMachineCarousel" data-slide-to="5"></li>
+                            <li data-target="#vendingMachineCarousel" data-slide-to="6"></li>
+                        </ol>
 
-                    <a href="https://github.com/MiBeard/VendingMachineJavascript" target="_blank">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.49.54%20AM.png?raw=true"
-                                    alt="Vending Machine Javascript">
+                        <a href="https://github.com/MiBeard/VendingMachineJavascript" target="_blank">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.49.54%20AM.png?raw=true"
+                                        alt="Vending Machine Javascript">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.50.23%20AM.png?raw=true"
+                                        alt="Vending Machine Javascript">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.50.41%20AM.png?raw=true"
+                                        alt="Vending Machine Javascript">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.51.00%20AM.png?raw=true"
+                                        alt="Vending Machine Javascript">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.51.18%20AM.png?raw=true"
+                                        alt="Vending Machine Javascript">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.51.43%20AM.png?raw=true"
+                                        alt="Vending Machine Javascript">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.51.50%20AM.png?raw=true"
+                                        alt="Vending Machine Javascript">
+                                </div>
                             </div>
+                        </a>
 
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.50.23%20AM.png?raw=true"
-                                    alt="Vending Machine Javascript">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.50.41%20AM.png?raw=true"
-                                    alt="Vending Machine Javascript">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.51.00%20AM.png?raw=true"
-                                    alt="Vending Machine Javascript">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.51.18%20AM.png?raw=true"
-                                    alt="Vending Machine Javascript">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.51.43%20AM.png?raw=true"
-                                    alt="Vending Machine Javascript">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/VendingMachineJavascript/blob/master/Screen%20Shot%202018-08-31%20at%203.51.50%20AM.png?raw=true"
-                                    alt="Vending Machine Javascript">
-                            </div>
-                        </div>
-                    </a>
-
-                    <a class="left carousel-control" href="#vendingMachineCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#vendingMachineCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <a class="left carousel-control" href="#vendingMachineCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#vendingMachineCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br/>
+                    <p>This particular version of Vending Machine is a web application that was created with the use of JSPs,
+                        JSTL, EL, PostMan, MVC architecture, JSON HTML, CSS, JavaScript, and jQuery. A browser-based user
+                        interface for an existing web service via the supplied Vending Machine REST API was additionally
+                        used.
+                    </p>
                 </div>
-                <br/>
-                <p>This particular version of Vending Machine is a web application that was created with the use of JSP's,
-                    JSTL, EL, PostMan, MVC architecture, JSON HTML, CSS, JavaScript, and jQuery. A browser-based user interface
-                    for an existing web service via the supplied Vending Machine REST API was additionally used.
-                </p>
             </div>
             <div class="col-md-3"></div>
         </div>
@@ -504,60 +522,61 @@
         <div class="row carouselSpacing">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <h3 class="centerText">Vending Maching! (Spring MVC Version)</h3>
-                <div id="VendingMachineSpringCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#VendingMachineSpringCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#VendingMachineSpringCarousel" data-slide-to="1"></li>
-                        <li data-target="#VendingMachineSpringCarousel" data-slide-to="2"></li>
-                        <li data-target="#VendingMachineSpringCarousel" data-slide-to="3"></li>
-                        <li data-target="#VendingMachineSpringCarousel" data-slide-to="4"></li>
-                    </ol>
+                <div class="jumbotron jumbotronChildTwo">
+                    <h3 class="centerText">Vending Maching! (Spring MVC Version)</h3>
+                    <div id="VendingMachineSpringCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#VendingMachineSpringCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#VendingMachineSpringCarousel" data-slide-to="1"></li>
+                            <li data-target="#VendingMachineSpringCarousel" data-slide-to="2"></li>
+                            <li data-target="#VendingMachineSpringCarousel" data-slide-to="3"></li>
+                            <li data-target="#VendingMachineSpringCarousel" data-slide-to="4"></li>
+                        </ol>
 
-                    <a href="https://github.com/MiBeard/VendingMachineSpringMVC" target="_blank">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.04.44%20AM.png?raw=true"
-                                    alt="Vending Maching Spring MVC">
+                        <a href="https://github.com/MiBeard/VendingMachineSpringMVC" target="_blank">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.04.44%20AM.png?raw=true"
+                                        alt="Vending Maching Spring MVC">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.05.16%20AM.png?raw=true"
+                                        alt="Vending Maching Spring MVC">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.05.38%20AM.png?raw=true"
+                                        alt="Vending Maching Spring MVC">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.05.55%20AM.png?raw=true"
+                                        alt="Vending Maching Spring MVC">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.06.04%20AM.png?raw=true"
+                                        alt="Vending Maching Spring MVC">
+                                </div>
                             </div>
+                        </a>
 
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.05.16%20AM.png?raw=true"
-                                    alt="Vending Maching Spring MVC">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.05.38%20AM.png?raw=true"
-                                    alt="Vending Maching Spring MVC">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.05.55%20AM.png?raw=true"
-                                    alt="Vending Maching Spring MVC">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.06.04%20AM.png?raw=true"
-                                    alt="Vending Maching Spring MVC">
-                            </div>
-                        </div>
-                    </a>
-
-                    <a class="left carousel-control" href="#VendingMachineSpringCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#VendingMachineSpringCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <a class="left carousel-control" href="#VendingMachineSpringCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#VendingMachineSpringCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br/>
+                    <p>This particular version of Vending Machine is a web application that was created with the use of JSPs,
+                        JSTL, EL, MVC architecture, Spring, HTML, and CSS. This program also has an in-memory DAO to store
+                        data. By using powerful features that came with the Spring framework, the need for a physical .jar
+                        file was no longer necessary. Additionally, this program was built without the use of any Ajax calls</p>
                 </div>
-                <br/>
-                <p>This particular version of Vending Machine is a web application that was created with the use of JSP's,
-                    JSTL, EL, MVC architecture, Spring, HTML, and CSS, to create a web application. This program also has
-                    an in-memory DAO to store data. By using powerful features that came with the Spring framework, the need
-                    for a physical .jar file was no longer necessary. Additionally, this program was built without the use
-                    of any Ajax calls</p>
             </div>
             <div class="col-md-3"></div>
         </div>
@@ -569,129 +588,129 @@
         <div class="row carouselSpacing">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <h3 class="centerText">Superheroes! (Spring MVC - Spring Security)</h3>
-                <div id="superHeroesCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#superHeroesCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="1"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="2"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="3"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="4"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="5"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="6"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="7"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="8"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="9"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="10"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="11"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="12"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="13"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="14"></li>
-                        <li data-target="#superHeroesCarousel" data-slide-to="15"></li>
-                    </ol>
+                <div class="jumbotron jumbotronChildOne">
+                    <h3 class="centerText">Superheroes! (Spring MVC - Spring Security)</h3>
+                    <div id="superHeroesCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#superHeroesCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="1"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="2"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="3"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="4"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="5"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="6"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="7"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="8"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="9"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="10"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="11"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="12"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="13"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="14"></li>
+                            <li data-target="#superHeroesCarousel" data-slide-to="15"></li>
+                        </ol>
 
-                    <a href="https://github.com/MiBeard/SuperHeroSightings" target="_blank">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.11.59%20AM.png?raw=true"
-                                    alt="Superheroes">
+                        <a href="https://github.com/MiBeard/SuperHeroSightings" target="_blank">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.11.59%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.12.15%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.12.36%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.29.12%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.29.26%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.30.26%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.30.42%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.31.26%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.31.41%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.32.02%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.32.15%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.32.27%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.33.01%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
+
+                                <div class="item">
+                                    <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.33.09%20AM.png?raw=true"
+                                        alt="Superheroes">
+                                </div>
                             </div>
+                        </a>
 
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.12.15%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
+                        <a class="left carousel-control" href="#superHeroesCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#superHeroesCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
 
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.12.36%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
+                    <br/>
 
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.29.12%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.29.26%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.30.26%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.30.42%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.31.26%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.31.41%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.32.02%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.32.15%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.32.27%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.33.01%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-
-                            <div class="item">
-                                <img style="height: 300px" src="https://github.com/MiBeard/picsForPrivateRepo/blob/master/Screen%20Shot%202018-08-31%20at%204.33.09%20AM.png?raw=true"
-                                    alt="Superheroes">
-                            </div>
-                        </div>
-                    </a>
-
+                    <p>Superheroes is a RESTful web application that was created with the use of MVC architecture, JSP's,
+                        JSTL, EL, Javascript(Ajax, jQuery), Spring, and SQL. This application has a Data Layer and uses custom
+                        error pages that apply security by integrating Spring Security that restricts access to endpoints
+                        to certain users.
+                    </p>
                 </div>
-
-                <a class="left carousel-control" href="#superHeroesCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#superHeroesCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-
-                <br/>
-
-                <p>Superheroes is a RESTful web application that was created with the use of MVC architecture, JSP's, JSTL,
-                    EL, Javascript(Ajax, jQuery), Spring, and SQL. This application has a Data Layer and uses custom error
-                    pages that apply security by integrating Spring Security that restricts access to endpoints to certain
-                    users.
-                </p>
+                <div class="col-md-2"></div>
             </div>
-            <div class="col-md-2"></div>
         </div>
         <br/>
         <br/>
-    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="home.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="home.js"></script>
 
 </body>
 
