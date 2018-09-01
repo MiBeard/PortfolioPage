@@ -19,6 +19,8 @@ a{
 
 p{
   text-indent: 50px;
+  width:450px;
+  margin: auto;
 }
 
 #profileImg{
