@@ -31,6 +31,9 @@ if (isset($_POST['name']) && isset($_POST['email'])){
 
 <!DOCTYPE html>
 <html>
+    <head>
+
+</head>
     <body>
         <form name="contactForm" style="color: black" method="post" action="">
 
