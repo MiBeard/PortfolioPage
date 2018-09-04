@@ -1,6 +1,6 @@
 body{
     background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),
-            url("https://upload.wikimedia.org/wikipedia/commons/9/90/In_Death_Valley_Calif_-_Eureka_Dunes_%2815873225860%29.jpg");
+            url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Sunset_over_Western_South_America.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -48,20 +48,20 @@ p{
 }
 
 .jumbotronResume{
-    background-color: #1b4e60;
+    background-color: #394f72;
     color: #e0e2c3;
     opacity: .8;
 }
 
 .contactJumbotron{
-    background-color: #442f08;
+    background-color: #394f72;
     opacity: .9;
     width: 600px;
     margin: auto;
 }
 
 .aboutMeJumbotron{
-    background-color: #442f08;
+    background-color: #152642;
     opacity: .9;
     width: 550px;
     margin: auto;
@@ -74,7 +74,7 @@ p{
 
 .jumbotronChildOne{
     opacity: .9;
-    background-color: #12143a;
+    background-color: #394f72;
 }
 
 .jumbotronChildOne p{
@@ -132,4 +132,3 @@ p{
     border-radius: 25px;
     height: 250px;
 }
-
