@@ -17,6 +17,10 @@ a{
   color: #e0e2c3;
 }
 
+a:hover { 
+    color: white;
+}
+
 p{
   text-indent: 50px;
   margin: auto;
